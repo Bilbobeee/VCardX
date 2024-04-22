@@ -1,0 +1,964 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-ico-o_skills-kali_ico {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("kali-linux.png");
+    animation-name: image-ico-skills-kali_ico;
+    z-index: 5;
+}
+
+
+.image-ico-container_o_skills-wrapper {
+    display: flex;
+}
+
+@keyframes image-ico-skills-kali_ico {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 25.2%;
+        top: 18%;
+    }
+}
+.image-ico-o_skills-penetration_t {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("p-testing.png");
+    animation-name: image-ico-o_skills-penetration_t;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-penetration_t {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 34%;
+        top: 19%;
+    }
+}
+.image-ico-o_skills-penetration_scan {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("scan.png");
+    animation-name: image-ico-o_skills-penetration_scan;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-penetration_scan {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 26%;
+        top: 24%;
+    }
+}
+.image-ico-o_skills-penetration_reconnaissance {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("reconn.png");
+    animation-name: image-ico-o_skills-penetration_reconnaissance;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-penetration_reconnaissance {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 35%;
+        top: 24%;
+    }
+}
+
+.image-ico-o_skills-penetration_vulnerability_analysis {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("vulnerability_a.png");
+    animation-name: image-ico-o_skills-penetration_vulnerability_analysis;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-penetration_vulnerability_analysis {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 26%;
+        top: 29%;
+    }
+}
+.image-ico-o_skills-penetration_exploitation {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("exploit.png");
+    animation-name: image-ico-o_skills-penetration_exploitation;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-penetration_exploitation {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 39%;
+        top: 29%;
+    }
+}
+.image-ico-o_skills-penetration_Post-Exploitation {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("post-exploitation.png");
+    animation-name: image-ico-o_skills-penetration_Post-Exploitation;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-penetration_Post-Exploitation {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 26%;
+        top: 34%;
+    }
+}
+.image-ico-o_skills-penetration_Reporting {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("reporting.png");
+    animation-name: image-ico-o_skills-penetration_Reporting;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-penetration_Reporting {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 37%;
+        top: 34%;
+    }
+}
+.image-ico-o_skills-penetration_nessus {
+    width: 90px;
+    height: 30px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("nessus.png");
+    animation-name: image-ico-o_skills-penetration_nessus;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-penetration_nessus {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 44%;
+        top: 34%;
+    }
+}
+.image-ico-o_skills-cisco_se {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("Cisco_SE.png");
+    animation-name: image-ico-o_skills-cisco_se;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-cisco_se {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 26%;
+        top: 38%;
+    }
+}
+.image-ico-o_skills-cisco_sth {
+    width: 28px;
+    height: 26px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("Cisco_SXTR.png");
+    animation-name: image-ico-o_skills-cisco_sth;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-cisco_sth {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 38.5%;
+        top: 38.5%;
+    }
+}
+.image-ico-o_skills-cisco_sma {
+    width: 28px;
+    height: 26px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("Cisco_SMA.png");
+    animation-name: image-ico-o_skills-cisco_sma;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-cisco_sma {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 26%;
+        top: 43%;
+    }
+}
+.image-ico-o_skills-cisco_umbr {
+    width: 33px;
+    height: 27px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("Cisco_umbrella.png");
+    animation-name: image-ico-o_skills-cisco_umbr;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-cisco_umbr {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 40%;
+        top: 43%;
+    }
+}
+.image-ico-o_skills-cisco_edr_ndr {
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("edr_ndr.png");
+    animation-name: image-ico-o_skills-cisco_edr_ndr;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-cisco_edr_ndr {
+    from {
+        left: 32%;
+        top: 120%;
+    }
+    to {
+        left: 32%;
+        top: 74%;
+    }
+}
+.image-ico-o_skills-cisco_email {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("Cisco_Email.png");
+    animation-name: image-ico-o_skills-cisco_email;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-cisco_email {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 26%;
+        top: 47.5%;
+    }
+}
+.image-ico-o_skills-eset_inspector {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("eset-i.png");
+    animation-name: image-ico-o_skills-eset_inspector;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-eset_inspector {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 34.5%;
+        top: 45.5%;
+    }
+}
+.image-ico-o_skills-eset_protect {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("eset-a.png");
+    animation-name: image-ico-o_skills-eset_protect;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-eset_protect {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 34.5%;
+        top: 50.5%;
+    }
+}
+.image-ico-o_skills-anti_ddos {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("ddos.png");
+    animation-name: image-ico-o_skills-anti_ddos;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-anti_ddos {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 25.5%;
+        top: 52.5%;
+    }
+}
+.image-ico-o_skills-misp {
+    width: 40px;
+    height: 30px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("Misp.png");
+    animation-name: image-ico-o_skills-misp;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills-misp {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 26%;
+        top: 57.5%;
+    }
+}
+.image-ico-o_skills_zimbra {
+    width: 45px;
+    height: 30px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("zimbra.png");
+    animation-name: image-ico-o_skills_zimbra;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_zimbra {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 33%;
+        top: 57.5%;
+    }
+}
+.image-ico-o_skills_mitre {
+    width: 60px;
+    height: 30px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("mitre.png");
+    animation-name: image-ico-o_skills_mitre;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_mitre {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 41%;
+        top: 57.5%;
+    }
+}
+.image-ico-o_skills_kena {
+    width: 33px;
+    height: 37px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("kena.png");
+    animation-name: image-ico-o_skills_kena;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_kena {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 26%;
+        top: 63%;
+    }
+}
+.image-ico-o_skills_qintel {
+    width: 48px;
+    height: 27px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("qintel.png");
+    animation-name: image-ico-o_skills_qintel;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_qintel {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 38%;
+        top: 63%;
+    }
+}
+.image-ico-o_skills_o_linux {
+    width: 38px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("o_linux.png");
+    animation-name: image-ico-o_skills_o_linux;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_o_linux {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 26%;
+        top: 68%;
+    }
+}
+.image-ico-o_skills_phishing {
+    width: 60px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("phish.png");
+    animation-name: image-ico-o_skills_phishing;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_phishing {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 36%;
+        top: 67%;
+    }
+}
+.image-ico-o_skills_local_network {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("local_n.png");
+    animation-name: image-ico-o_skills_local_network;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_local_network {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 50.5%;
+        top: 20%;
+    }
+}
+.image-ico-o_skills_server_admin {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("server.png");
+    animation-name: image-ico-o_skills_server_admin;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_server_admin {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 50.5%;
+        top: 25%;
+    }
+}
+.image-ico-o_skills_server_ad {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("ad.png");
+    animation-name: image-ico-o_skills_server_ad;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_server_ad {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 50.5%;
+        top: 30%;
+    }
+}
+.image-ico-o_skills_server_dns {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("dns.png");
+    animation-name: image-ico-o_skills_server_dns;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_server_dns {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 50.5%;
+        top: 35%;
+    }
+}
+.image-ico-o_skills_server_vpn {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("vpn.png");
+    animation-name: image-ico-o_skills_server_vpn;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_server_vpn {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 50.5%;
+        top: 40%;
+    }
+}
+.image-ico-o_skills_server_roundcube {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("roundcube.png");
+    animation-name: image-ico-o_skills_server_roundcube;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_server_roundcube {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 56%;
+        top: 40%;
+    }
+}
+.image-ico-o_skills_asa {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("asa.png");
+    animation-name: image-ico-o_skills_asa;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_asa {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 50.7%;
+        top: 65%;
+    }
+}
+.image-ico-o_skills_admin {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("admin.png");
+    animation-name: image-ico-o_skills_admin;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_admin {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 50.5%;
+        top: 45%;
+    }
+}
+.image-ico-o_skills_conference {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("conference.png");
+    animation-name: image-ico-o_skills_conference;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_conference {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 50.5%;
+        top: 52%;
+    }
+}
+.image-ico-o_skills_office {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("office.png");
+    animation-name: image-ico-o_skills_office;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_office {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 50.5%;
+        top: 59%;
+    }
+}
+.image-ico-o_skills_vmware {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("vmware.png");
+    animation-name: image-ico-o_skills_vmware;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_vmware {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 50.5%;
+        top: 72%;
+    }
+}
+.image-ico-o_skills_photoshop {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("photoshop.png");
+    animation-name: image-ico-o_skills_photoshop;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_photoshop {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 50.5%;
+        top: 78%;
+    }
+}
+.image-ico-o_skills_thunderbird {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("thunderbird.png");
+    animation-name: image-ico-o_skills_thunderbird;
+    z-index: 5;
+}
+
+
+@keyframes image-ico-o_skills_thunderbird {
+    from {
+        left: -120%;
+        top: 18%;
+    }
+    to {
+        left: 50.5%;
+        top: 85%;
+    }
+}

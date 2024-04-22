@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-list-image-container-main-1 {
+    width: 50vw;
+    height: 58vh;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.back-list-image-container-main-1 {
+    background-image: url("back_list.png");
+    animation-name: moveBackListImageMain1;
+}
+
+
+.back-list-image-container-wrapper {
+    display: flex;
+}
+
+@keyframes moveBackListImageMain1 {
+    from {
+        left: 25%;
+        top: 300%;
+    }
+    to {
+        left: 25%;
+        top: 30%;
+    }
+}

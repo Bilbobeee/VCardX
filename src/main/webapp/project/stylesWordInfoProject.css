@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.text-container-1-rename-1 {
+	text-shadow: 2px 2px 4px rgba(0, 0, 5.5, 5.5);
+	color: white;
+    font-size: 29px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -50px; /* Початкове положення тексту за межами екрану */
+    animation: slide-up1 1s ease forwards; /* Анімація триває 2 секунди */
+    z-index: 10;
+}
+
+.text-container-1-rename-2 {
+	text-shadow: 2px 2px 4px rgba(0, 0, 5.5, 5.5);
+	color: white;
+    font-size: 29px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -50px; /* Початкове положення тексту за межами екрану */
+    animation: slide-up2 1s ease forwards; /* Анімація триває 2 секунди */
+    z-index: 10;
+}
+
+.text-container-1-rename-3 {
+	text-shadow: 2px 2px 4px rgba(0, 0, 5.5, 5.5);
+	color: white;
+    font-size: 29px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -50px; /* Початкове положення тексту за межами екрану */
+    animation: slide-up3 1s ease forwards; /* Анімація триває 2 секунди */
+    z-index: 10;
+}
+
+.text-container-1-rename-4 {
+	text-shadow: 2px 2px 4px rgba(0, 0, 5.5, 5.5);
+	color: white;
+    font-size: 29px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -50px; /* Початкове положення тексту за межами екрану */
+    animation: slide-up4 1s ease forwards; /* Анімація триває 2 секунди */
+    z-index: 10;
+}
+
+@keyframes slide-up1 {
+    from {
+        left: 30%; /* Початкова позиція тексту за межами екрану (зліва від екрану) */
+        top: -100%; /* Початкова позиція тексту за межами екрану (знизу від екрану) */
+    }
+    to {
+        left: 28.8%; /* Кінцева позиція тексту в центрі екрану */
+        top: 14.5%;
+    }
+}
+
+@keyframes slide-up2 {
+    from {
+        left: 30%; /* Початкова позиція тексту за межами екрану (зліва від екрану) */
+        top: -100%; /* Початкова позиція тексту за межами екрану (знизу від екрану) */
+    }
+    to {
+        left: 35.2%; /* Кінцева позиція тексту в центрі екрану */
+        top: 14.5%;
+    }
+}
+@keyframes slide-up3 {
+    from {
+        left: 100%; /* Початкова позиція тексту за межами екрану (зліва від екрану) */
+        top: 10%; /* Початкова позиція тексту за межами екрану (знизу від екрану) */
+    }
+    to {
+        left: 45.4%; /* Кінцева позиція тексту в центрі екрану */
+        top: 14.5%;
+    }
+}
+@keyframes slide-up4 {
+    from {
+        left: -100%; /* Початкова позиція тексту за межами екрану (зліва від екрану) */
+        top: -10%; /* Початкова позиція тексту за межами екрану (знизу від екрану) */
+    }
+    to {
+        left: 55.5%; /* Кінцева позиція тексту в центрі екрану */
+        top: 14.5%;
+    }
+}

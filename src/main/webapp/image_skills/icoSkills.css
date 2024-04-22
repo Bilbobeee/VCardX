@@ -1,0 +1,433 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-ico-skills-java8 {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.image-ico-skills-jUnit {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.image-ico-skills-jCore {
+    width: 40px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.image-ico-skills-jSwing {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.image-ico-skills-JMulti {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.image-ico-skills-JDBC {
+    width: 40px;
+    height: 70px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.image-ico-skills-ApachT {
+    width: 50px;
+    height: 40px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.image-ico-skills-Maven {
+    width: 60px;
+    height: 40px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.image-ico-skills-JSP {
+    width: 40px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.image-ico-skills-PSQL {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.image-ico-skills-Servlet {
+    width: 50px;
+    height: 40px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("servlet-75.png");
+    animation-name: image-ico-skills-Servlet;
+}
+.image-ico-skills-html {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("html.png");
+    animation-name: image-ico-skills-html;
+}
+.image-ico-skills-git {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("git.png");
+    animation-name: image-ico-skills-git;
+}
+.image-ico-skills-git-repository {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("git.png");
+    animation-name: image-ico-skills-git-repository;
+}
+.image-ico-skills-dbeaver {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("DBeaver.png");
+    animation-name: image-ico-skills-dbeaver;
+}
+.image-ico-skills-eclipse {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("eclipse.png");
+    animation-name: image-ico-skills-eclipse;
+}
+.image-ico-skills-intelij {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("Intellij.png");
+    animation-name: image-ico-skills-intelij;
+}
+.image-ico-skills-english {
+    width: 320px;
+    height: 67px;
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-image: url("english.png");
+    animation-name: image-ico-skills-english;
+}
+
+.image-ico-skills-java8 {
+    background-image: url("java8-75.png");
+    animation-name: image-ico-skills-java8;
+}
+.image-ico-skills-jUnit {
+    background-image: url("JUnit_75.png");
+    animation-name: image-ico-skills-jUnit-2;
+}
+.image-ico-skills-jCore {
+    background-image: url("Java_Core.png");
+    animation-name: image-ico-skills-jCore;
+}
+.image-ico-skills-jSwing {
+    background-image: url("java_swing.png");
+    animation-name: image-ico-skills-jSwing;
+}
+.image-ico-skills-JMulti {
+    background-image: url("java_multithreading.png");
+    animation-name: image-ico-skills-JMulti;
+}
+.image-ico-skills-JDBC {
+    background-image: url("jdbc.png");
+    animation-name: image-ico-skills-JDBC;
+}
+.image-ico-skills-ApachT {
+    background-image: url("apache_tomcat.png");
+    animation-name: image-ico-skills-ApachT;
+}
+.image-ico-skills-Maven {
+    background-image: url("Maven.png");
+    animation-name: image-ico-skills-Maven;
+}
+.image-ico-skills-JSP {
+    background-image: url("jsp.png");
+    animation-name: image-ico-skills-JSP;
+}
+.image-ico-skills-PSQL {
+    background-image: url("postgresql.png");
+    animation-name: image-ico-skills-PSQL;
+}
+
+
+.image-ico-container-wrapper {
+    display: flex;
+}
+
+@keyframes image-ico-skills-java8 {
+    from {
+        left: 25%;
+        top: -100%;
+    }
+    to {
+        left: 26%;
+        top: 14%;
+    }
+}
+@keyframes image-ico-skills-jUnit-2 {
+    from {
+        left: 25%;
+        top: -100%;
+    }
+    to {
+        left: 26%;
+        top: 22%;
+    }
+}
+@keyframes image-ico-skills-jCore {
+    from {
+        left: 25%;
+        top: -100%;
+    }
+    to {
+        left: 26%;
+        top: 29.5%;
+    }
+}
+@keyframes image-ico-skills-jSwing {
+    from {
+        left: 25%;
+        top: -100%;
+    }
+    to {
+        left: 26%;
+        top: 38%;
+    }
+}
+@keyframes image-ico-skills-JMulti {
+    from {
+        left: 25%;
+        top: -100%;
+    }
+    to {
+        left: 26%;
+        top: 45%;
+    }
+}
+@keyframes image-ico-skills-JDBC {
+    from {
+        left: 25%;
+        top: -100%;
+    }
+    to {
+        left: 26%;
+        top: 52%;
+    }
+}
+@keyframes image-ico-skills-ApachT {
+    from {
+        left: 25%;
+        top: -100%;
+    }
+    to {
+        left: 25.5%;
+        top: 62%;
+    }
+}
+@keyframes image-ico-skills-Maven {
+    from {
+        left: 25%;
+        top: -100%;
+    }
+    to {
+        left: 25.5%;
+        top: 69%;
+    }
+}
+@keyframes image-ico-skills-JSP {
+    from {
+        left: 51%;
+        top: -100%;
+    }
+    to {
+        left: 51%;
+        top: 14%;
+    }
+}
+@keyframes image-ico-skills-PSQL {
+    from {
+        left: 51%;
+        top: -100%;
+    }
+    to {
+        left: 51%;
+        top: 21%;
+    }
+}
+@keyframes image-ico-skills-Servlet {
+    from {
+        left: 51%;
+        top: -100%;
+    }
+    to {
+        left: 51%;
+        top: 29%;
+    }
+}
+@keyframes image-ico-skills-html {
+    from {
+        left: 51%;
+        top: -100%;
+    }
+    to {
+        left: 51%;
+        top: 37%;
+    }
+}
+@keyframes image-ico-skills-git {
+    from {
+        left: 51%;
+        top: -100%;
+    }
+    to {
+        left: 51%;
+        top: 45.5%;
+    }
+}
+@keyframes image-ico-skills-git-repository {
+    from {
+        left: 80%;
+        top: -100%;
+    }
+    to {
+        left: 77.5%;
+        top: 5%;
+    }
+}
+@keyframes image-ico-skills-dbeaver {
+    from {
+        left: 51%;
+        top: -100%;
+    }
+    to {
+        left: 51%;
+        top: 53%;
+    }
+}
+@keyframes image-ico-skills-eclipse {
+    from {
+        left: 51%;
+        top: -100%;
+    }
+    to {
+        left: 51%;
+        top: 61.5%;
+    }
+}
+@keyframes image-ico-skills-intelij {
+    from {
+        left: 51%;
+        top: -100%;
+    }
+    to {
+        left: 51%;
+        top: 69.5%;
+    }
+}
+@keyframes image-ico-skills-english {
+    from {
+        left: 40%;
+        top: 110%;
+    }
+    to {
+        left: 40%;
+        top: 85.2%;
+    }
+}

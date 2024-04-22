@@ -1,0 +1,958 @@
+@charset "UTF-8";
+
+.image-call-rename-1 {
+	position: absolute;
+	width: 7.5%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-1;
+
+	z-index: 15;
+}
+
+.additional-image-rename-1 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("1.png");
+	background-size: cover;
+	display: none;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-1;
+	z-index: 14;
+}
+
+.image-container-rename-1:hover .additional-image-rename-1 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-1 {
+	from {
+		left: 25.5%;
+		top: -120%;
+	}
+
+	to {
+		left: 25.5%;
+		top: 60%;
+	}
+}
+
+@keyframes BigImageMoveRename-1 {
+	from {
+		width: 0px;
+		height: 0px;
+		left: 27%;
+		top: 68%;
+	}
+
+	to {
+		width: 25%;
+		height: 35%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/
+
+.image-call-rename-2 {
+	position: absolute;
+	width: 8%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-2;
+
+	z-index: 15;
+}
+
+.additional-image-rename-2 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("2.png");
+	background-size: cover;
+	display: none;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-2;
+	z-index: 14;
+}
+
+.image-container-rename-2:hover .additional-image-rename-2 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-2 {
+	from {
+		left: 33.2%;
+		top: -120%;
+	}
+
+	to {
+		left: 33.2%;
+		top: 60%;
+	}
+}
+
+
+@keyframes BigImageMoveRename-2 {
+	from {
+		width: 0px;
+		height: 0px;
+		left: 35%;
+		top: 68%;
+	}
+
+	to {
+		width: 35%;
+		height: 32%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/
+
+.image-call-rename-3 {
+	position: absolute;
+	width: 8%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-3;
+
+	z-index: 15;
+}
+
+.additional-image-rename-3 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("3.png");
+	background-size: cover;
+	display: none;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-3;
+	
+	z-index: 14;
+}
+
+
+.image-container-rename-3:hover .additional-image-rename-3 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-3 {
+	from {
+		left: 41.35%;
+		top: -120%;
+	}
+
+	to {
+		left: 41.35%;
+		top: 60%;
+	}
+}
+
+
+@keyframes BigImageMoveRename-3 {
+	from {
+
+		width: 0px;
+		height: 0px;
+		left: 45%;
+		top: 68%;
+	}
+
+	to {
+		width: 35%;
+		height: 32%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/
+
+.image-call-rename-4 {
+	position: absolute;
+	width: 8%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-4;
+
+	z-index: 15;
+}
+
+.additional-image-rename-4 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("4.png");
+	background-size: cover;
+	display: none;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-4;
+	
+	z-index: 14;
+}
+
+
+.image-container-rename-4:hover .additional-image-rename-4 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-4 {
+	from {
+		left: 50.7%;
+		top: -120%;
+	}
+
+	to {
+		left: 50.7%;
+		top: 60%;
+	}
+}
+
+
+@keyframes BigImageMoveRename-4 {
+	from {
+
+		width: 0px;
+		height: 0px;
+		left: 52%;
+		top: 68%;
+	}
+
+	to {
+		width: 35%;
+		height: 32%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/
+
+.image-call-rename-5 {
+	position: absolute;
+	width: 8%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 2.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-5;
+
+	z-index: 15;
+}
+
+.additional-image-rename-5 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("5.png");
+	background-size: cover;
+	display: none;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-5;
+	
+	z-index: 14;
+}
+
+
+.image-container-rename-5:hover .additional-image-rename-5 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-5 {
+	from {
+		left: 58.83%;
+		top: -120%;
+	}
+
+	to {
+		left: 58.83%;
+		top: 60%;
+	}
+}
+
+
+@keyframes BigImageMoveRename-5 {
+	from {
+
+		width: 0px;
+		height: 0px;
+		left: 60%;
+		top: 68%;
+	}
+
+	to {
+		width: 32%;
+		height: 59%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/
+
+.image-call-rename-6 {
+	position: absolute;
+	width: 7.7%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 1.8s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-6;
+
+	z-index: 15;
+}
+
+.additional-image-rename-6 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("6.png");
+	background-size: cover;
+	display: none;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-6;
+	
+	z-index: 14;
+}
+
+
+.image-container-rename-6:hover .additional-image-rename-6 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-6 {
+	from {
+		left: 67%;
+		top: -120%;
+	}
+
+	to {
+		left: 67%;
+		top: 60%;
+	}
+}
+
+
+@keyframes BigImageMoveRename-6 {
+	from {
+
+		width: 0px;
+		height: 0px;
+		left: 69%;
+		top: 68%;
+	}
+
+	to {
+		width: 35%;
+		height: 32%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/
+
+.image-call-rename-7 {
+	position: absolute;
+	width: 7.5%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 1.8s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-7;
+
+	z-index: 15;
+}
+
+.additional-image-rename-7 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("7.png");
+	background-size: cover;
+	display: none;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-7;
+	
+	z-index: 14;
+}
+
+
+.image-container-rename-7:hover .additional-image-rename-7 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-7 {
+	from {
+		left: -120%;
+		top: 70%;
+	}
+
+	to {
+		left: 25.5%;
+		top: 70%;
+	}
+}
+
+
+@keyframes BigImageMoveRename-7 {
+	from {
+
+		width: 0px;
+		height: 0px;
+		left: 28%;
+		top: 78%;
+	}
+
+	to {
+		width: 35%;
+		height: 32%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/
+
+.image-call-rename-8 {
+	position: absolute;
+	width: 8%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-8;
+
+	z-index: 15;
+}
+
+.additional-image-rename-8 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("8.png");
+	background-size: cover;
+	display: none;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-8;
+	
+	z-index: 14;
+}
+
+
+.image-container-rename-8:hover .additional-image-rename-8 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-8 {
+	from {
+		left: -120%;
+		top: 70%;
+	}
+
+	to {
+		left: 33.2%;
+		top: 70%;
+	}
+}
+
+
+@keyframes BigImageMoveRename-8 {
+	from {
+
+		width: 0px;
+		height: 0px;
+		left: 35%;
+		top: 78%;
+	}
+
+	to {
+		width: 35%;
+		height: 32%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/
+
+.image-call-rename-9 {
+	position: absolute;
+	width: 8%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-9;
+
+	z-index: 15;
+}
+
+.additional-image-rename-9 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("9.png");
+	background-size: cover;
+	display: none;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-9;
+	
+	z-index: 14;
+}
+
+
+.image-container-rename-9:hover .additional-image-rename-9 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-9 {
+	from {
+		left: -120%;
+		top: 70%;
+	}
+
+	to {
+		left: 41.3%;
+		top: 70%;
+	}
+}
+
+
+@keyframes BigImageMoveRename-9 {
+	from {
+
+		width: 0px;
+		height: 0px;
+		left: 43%;
+		top: 78%;
+	}
+
+	to {
+		width: 35%;
+		height: 32%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/
+
+.image-call-rename-10 {
+	position: absolute;
+	width: 8%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-10;
+
+	z-index: 15;
+}
+
+.additional-image-rename-10 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("10.png");
+	background-size: cover;
+	display: none;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-10;
+	
+	z-index: 14;
+}
+
+
+.image-container-rename-10:hover .additional-image-rename-10 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-10 {
+	from {
+		left: 120%;
+		top: 70%;
+	}
+
+	to {
+		left: 50.7%;
+		top: 70%;
+	}
+}
+
+
+@keyframes BigImageMoveRename-10 {
+	from {
+
+		width: 0px;
+		height: 0px;
+		left: 52%;
+		top: 78%;
+	}
+
+	to {
+		width: 35%;
+		height: 32%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/
+
+.image-call-rename-11 {
+	position: absolute;
+	width: 8%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-11;
+
+	z-index: 15;
+}
+
+.additional-image-rename-11 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("11.png");
+	background-size: cover;
+	display: none;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-11;
+	
+	z-index: 14;
+}
+
+
+.image-container-rename-11:hover .additional-image-rename-11 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-11 {
+	from {
+		left: 120%;
+		top: 70%;
+	}
+
+	to {
+		left: 58.9%;
+		top: 70%;
+	}
+}
+
+
+@keyframes BigImageMoveRename-11 {
+	from {
+
+		width: 0px;
+		height: 0px;
+		left: 62%;
+		top: 78%;
+	}
+
+	to {
+		width: 35%;
+		height: 32%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/
+
+.image-call-rename-12 {
+	position: absolute;
+	width: 7.7%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-12;
+
+	z-index: 15;
+}
+
+.additional-image-rename-12 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("12.png");
+	background-size: cover;
+	display: none;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-12;
+	
+	z-index: 14;
+}
+
+
+.image-container-rename-12:hover .additional-image-rename-12 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-12 {
+	from {
+		left: 120%;
+		top: 70%;
+	}
+
+	to {
+		left: 67.0%;
+		top: 70%;
+	}
+}
+
+
+@keyframes BigImageMoveRename-12 {
+	from {
+
+		width: 0px;
+		height: 0px;
+		left: 69%;
+		top: 78%;
+	}
+
+	to {
+		width: 35%;
+		height: 32%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/
+
+.image-call-rename-13 {
+	position: absolute;
+	width: 8%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 2.3s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-13;
+
+	z-index: 15;
+}
+
+.additional-image-rename-13 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("13.png");
+	background-size: cover;
+	display: none;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-13;
+	
+	z-index: 14;
+}
+
+
+.image-container-rename-13:hover .additional-image-rename-13 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-13 {
+	from {
+		left: 41.3%;
+		top: 120%;
+	}
+
+	to {
+		left: 41.3%;
+		top: 80%;
+	}
+}
+
+
+@keyframes BigImageMoveRename-13 {
+	from {
+
+		width: 0px;
+		height: 0px;
+		left: 45%;
+		top: 88%;
+	}
+
+	to {
+		width: 32%;
+		height: 59%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/
+
+.image-call-rename-14 {
+	position: absolute;
+	width: 7.7%;
+	height: 9%;
+	position: absolute;
+	bottom: 0;
+	cursor: zoom-in;
+
+	animation-duration: 2.1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: small-rename-move-14;
+
+	z-index: 15;
+}
+
+.additional-image-rename-14 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-image: url("14.png");
+	background-size: cover;
+	display: none;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-name: BigImageMoveRename-14;
+	
+	z-index: 14;
+}
+
+
+.image-container-rename-14:hover .additional-image-rename-14 {
+	display: block;
+	display: flex;
+}
+
+@keyframes small-rename-move-14 {
+	from {
+		left: 50.3%;
+		top: 120%;
+	}
+
+	to {
+		left: 50.7%;
+		top: 80%;
+	}
+}
+
+
+@keyframes BigImageMoveRename-14 {
+	from {
+
+		width: 0px;
+		height: 0px;
+		left: 52%;
+		top: 88%;
+	}
+
+	to {
+		width: 35%;
+		height: 32%;
+		left: 50%;
+		top: 30%;
+	}
+}
+
+/*****************************************************************************/

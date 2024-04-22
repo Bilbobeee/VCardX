@@ -1,0 +1,25 @@
+.button11 {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 2; /* Щоб кнопки були поверх інших елементів */
+}
+.button22 {
+  position: fixed;
+  top: 30px;
+  left: 10px;
+  z-index: 2; /* Щоб кнопки були поверх інших елементів */
+}
+.button33 {
+  position: fixed;
+  top: 50px;
+  left: 10px;
+  z-index: 2; /* Щоб кнопки були поверх інших елементів */
+}
+
+.pic {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1; /* Щоб зображення було позаду кнопок */
+}

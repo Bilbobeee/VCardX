@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+:root {
+    --top-position: 50%;
+    --left-position: 0%;
+}
+
+.left-middle-image img {
+    width: 320px;
+    height: 500px;
+}
+
+.left-middle-image {
+    position: fixed;
+    left: var(--left-position);
+    top: var(--top-position);
+    transform: translateY(-50%);
+    z-index: 0;
+}
+.menu-container {
+    position: fixed;
+    top: calc(var(--top-position) - 200px);
+    left: calc(var(--left-position) + 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Ця зміна розташовує кнопки одна під одною */
+    z-index: 1;
+}
+
+.menu-button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid white;
+    width: 150px;
+    height: 40px;
+    z-index: 2;
+}
+
+.menu-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menu-button:active {
+    transform: scale(0.95);
+}
